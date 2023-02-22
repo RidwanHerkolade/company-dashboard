@@ -1,0 +1,236 @@
+.employee__div {
+     background: var(--color-red);
+}
+.employee__divs {
+     margin: 2.5rem 5rem;
+}
+.board__header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.menuBtn {
+     display: none;
+
+}
+.greetings {
+     color: var(--color-white);
+     text-transform: capitalize;
+     font-weight: 600;
+     font-size: var(--font-fold);
+}
+.search {
+     display: flex;
+     gap: 1rem;
+     align-items: center;
+     position: relative;
+}
+.label {
+     display: flex;
+     gap: 0.6rem;
+     position: relative;
+     align-items: center;
+}
+.search label {
+     color: var(--color-white);
+     opacity: 0.4;
+     font-weight: 400;
+     font-size: var(--font-smallz);
+     text-transform: uppercase;
+}
+.search img {
+     width: 1rem;
+     height: 1rem;
+     object-fit: contain;
+}
+.label img {
+     position: absolute;
+     width: 1rem;
+     height: 1rem;
+     object-fit: contain;
+     right: 1rem;
+}
+.label input {
+      width: 15rem;
+     font-family: var(--font-family);
+     font-size: var(--font-smalls);
+     border: none;
+     outline: none;
+     padding: 0.5rem 1rem;
+     background: var(--color-white);
+     opacity: 0.1;
+     border-radius: 5rem;
+}
+/* EMPLOYEE DETAILS  */
+.employees {
+     width: 100%;
+     margin-top: 2rem;
+     height: 80vh;
+     background: var(--color-white);
+}
+.employee__details {
+     padding: 1.5rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.employees__detail {
+     padding: 2rem;
+     overflow-y: scroll;
+     height: 68vh;
+}
+.select {
+     display: flex;
+     align-items: center;
+     position: relative;
+     gap: 1rem;
+}
+select {
+     border: 1px solid var(--color-red);
+     color: var(--color-font);
+     font-weight: 600;
+     font-family: var(--font-family);
+     text-transform: capitalize;
+     font-size: var(--font-smalls);
+     border-radius: 0.4rem;
+     outline: none;
+}
+.op {
+     width: 6rem;
+     padding: 0.1rem 1rem;
+}
+.opp {
+     width: 10rem;
+     padding: 0.1rem 0.3rem;
+}
+.oppp {
+     width: 9rem;
+     padding: 0.1rem 1rem;
+
+}
+.add {
+     width: 1rem;
+     height: 1rem;
+     object-fit: contain;
+}
+.images {
+     position: absolute;
+     display: flex;
+     align-items: center;
+     width: 0.6rem;
+     object-fit: contain;
+     height: 0.6rem;
+     left: 0.3rem;
+}
+.arrow {
+     position: absolute;
+     left: 2.5rem;
+     display: flex;
+     width: 0.6rem;
+     object-fit: contain;
+     height: 0.6rem;
+     align-items: center;
+}
+table {
+     width: 100%;
+     table-layout: fixed;
+     border-collapse: collapse;
+     justify-items: center;
+     overflow-y: scroll;
+}
+thead th {
+     border-bottom: 0.5px solid  var(--color-grey);
+     position: sticky;
+     border-collapse: collapse;
+     padding: 2rem 1rem;
+     font-weight: 700;
+     font-size: var(--font-bold);
+     color: var(--color-font);
+     text-transform: uppercase;
+     width: 10rem;
+    justify-items: center;
+}
+tbody td {
+     border-bottom: 0.5px solid  var(--color-grey);
+     border-collapse: collapse;
+     width: 10rem;
+     padding: 1.5rem 0rem;
+}
+.dev {
+     padding-left: 2rem;
+     cursor: pointer;
+     display: flex;
+     gap: 1rem;
+     align-items: center;
+}
+.dev__img {
+     width: 2rem;
+     height: 2rem;
+     
+}
+.dev__img img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+.dev h3 {
+     font-size: var(--font-smalls);
+     color: var(--color-font);
+     text-transform: capitalize;
+     font-weight: 700;
+   
+}
+.data__position {
+     padding-left: 4rem;
+     text-transform: capitalize;
+     color: var(--color-font);
+     font-size: var(--font-smalls);
+     font-weight: 500;
+}
+.media {
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     cursor: pointer;
+}
+.media img {
+     gap: 1rem;
+     width: 1rem;
+     height: 1rem;
+}
+.del {
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     cursor: pointer;
+}
+.del img {
+     width: 1rem;
+     height: 1rem;
+}
+
+@media screen and (max-width:1024px) {
+     .employee__divs {
+          margin: 2.5rem 3rem;
+     }
+     .data__position {
+          font-size: var(--font-ten);
+          padding-left: 2rem;
+     }
+     .dev {
+          padding-left: 1rem;
+     }
+     .menuBtn {
+          display: flex;
+          font-weight: 800;
+          cursor: pointer;
+          position: relative;
+     }
+    #close {
+     z-index: 18;
+     position: absolute;
+     top: -1.9rem;
+     left: 10rem;
+    }
+
+}

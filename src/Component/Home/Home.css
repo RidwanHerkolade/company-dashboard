@@ -1,0 +1,145 @@
+main {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background: var(--color-white);
+}
+.home__section {
+     display: flex;
+     justify-items: center;
+     margin: 0rem 12rem;
+     align-items: center;
+}
+.homePage {
+     flex: 1;
+     order: 1;
+     object-fit: contain;
+}
+
+.home__image {
+     flex: 1;
+     order: 2;
+      width: 100%;
+}
+.home__image .home__img {
+     width: 90%;
+     height: 100%;
+}
+.home__image .home__img img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+.home__logo {
+     display: flex;
+     width: 8rem;
+}
+.home__logo img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+.para__content {
+     display: flex;
+     color: var(--color-font);
+     margin-top: 2.4rem;
+     line-height: 22px;
+     font-weight: 500;
+     justify-content: flex-start;
+     text-align: left;
+     width: 65%;
+     font-size: var(--font-small);
+
+}
+.login__btn {
+     display: flex;
+     cursor: pointer;
+     border: none;
+     outline: none;
+     margin-top: 2.4rem;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     background: var(--color-red);
+     text-transform: capitalize;
+     color: var(--color-white);
+     font-weight: 700;
+     padding: 0.4rem 3rem;
+     border-radius: 0.3rem;
+     width: 6rem;
+}
+@media screen and (min-width:1400px) {
+     .home__section {
+          margin: 0rem 14rem;
+     }
+     .para__content {
+          width: 60%;
+     } 
+}
+@media screen and (max-width:1024px) {
+     .home__section {
+          margin: 0rem 5rem;
+     }
+     .home__image .home__img {
+          width: 90%;
+     }
+
+     .login__btn {
+          margin-top: 1.5rem;
+          
+     }
+     .para__content {
+          margin-top: 1.5rem;
+          width: 72%;
+     }
+     
+}
+@media screen and (width:768px){
+     .home__section {
+          margin: 0rem 4rem;
+     }
+     .para__content {
+          width: 80%;
+     }
+
+}
+@media screen and (max-width:600px) {
+     *{
+          padding: 0rem;
+          margin: 0rem;
+          overflow: hidden;
+     }
+     .home__section {
+          flex-direction: column;
+          margin: 0rem 2rem;
+          gap: 3rem;
+     }
+     .homePage {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+     }
+     .home__image {
+          order: -1 !important;
+          flex: 1;
+
+     }
+     .para__content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width: 80%;
+          font-size: var(--font-small);
+     
+     }
+     .home__image .home__img {
+          width: 100%;
+     }
+
+     
+}

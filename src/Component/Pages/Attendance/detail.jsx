@@ -1,0 +1,147 @@
+export default [
+                        {
+                             "id": "1",
+                             "staffName": "slades desk",
+                             "staffImg": "../img/dessk.png",
+                             "staffPosition": "ui/ux designer",
+                             "nation": "Ghana",
+                             "email": "khalidmaha123@gmail.com",
+                             "dob": "18/09/1980",
+                             "djoin": "12/12/2021",
+                             "state": "Kumasi",
+                             "add": "4, allen gate, kumasi ghana",
+                             "staff":" 1212BD2021",
+                             "number": "+267780897543"
+                        },
+                        {
+                             "id": "2",
+                             "staffName":"feranmi ajayi",
+                             "staffImg":"../img/fer.png",
+                             "staffPosition": "Hr",
+                             "nation": "South Africa",
+                             "email": "elenajone23@gmail.com",
+                             "dob": "18/09/1989",
+                             "djoin": "12/09/2021",
+                             "state": "Pretoria",
+                             "add": "4, allen gate, pretoria SA",
+                             "staff":" 1209BD2021",
+                             "number": "+267780897543"
+                   
+                        },
+                        {
+                             "id": "3",
+                             "staffName": "jus stan",
+                             "staffImg":"../img/sta.png",
+                             "staffPosition": "software engineer",
+                             "nation": "United Kingdom",
+                             "email": "richadmcall113@gmail.com",
+                             "dob": "18/09/1990",
+                             "djoin": "21/02/2021",
+                             "state": "England",
+                             "add": "407, John stones road england",
+                             "staff":" 1202AE2021",
+                             "number": "+44780897543"
+                   
+                        },
+                        {
+                             "id": "4",
+                             "staffName": "demi samuel",
+                             "staffImg":"../img/demi.png",
+                             "staffPosition":"tech expert",
+                             "nation": "USA",
+                             "email": "jnr323@yahoo.com",
+                             "dob": "18/09/1995",
+                             "djoin": "12/05/2022",
+                             "state": "Califonia",
+                             "add": "califonia road",
+                             "staff":" 1205FR2022",
+                             "number": "+167780897543"
+                        },
+                        {
+                                "id": "5",
+                                "staffName": "dolapo garba",
+                                "staffImg": "../img/gar.png",
+                                "staffPosition": "IT engineer",
+                                "nation": "USA",
+                                "email": "jnr323@yahoo.com",
+                                "dob": "18/09/1995",
+                                "djoin": "12/05/2022",
+                                "state": "Califonia",
+                                "add": "califonia road",
+                                "staff":" 1205FR2022",
+                                "number": "+167780897543"
+                           }, {
+                                "id": "6",
+                                "staffName": "abiodun abele",
+                                "staffImg":"../img/abiodun.png",
+                               "staffPosition":"tech expert",
+                                "nation": "USA",
+                                "email": "jnr323@yahoo.com",
+                                "dob": "18/09/1995",
+                                "djoin": "12/05/2022",
+                                "state": "Califonia",
+                                "add": "califonia road",
+                                "staff":" 1205FR2022",
+                                "number": "+167780897543"
+                           },
+                            {
+                                "id": "7",
+                                "staffName": "anita clark",  
+                                "staffImg": "../img/anita.png",
+                              "staffPosition": "product design",
+                                "nation": "USA",
+                                "email": "jnr323@yahoo.com",
+                                "dob": "18/09/1995",
+                                "djoin": "12/05/2022",
+                                "state": "Califonia",
+                                "add": "califonia road",
+                                "staff":" 1205FR2022",
+                                "number": "+167780897543"
+                           },
+                           {
+                                "id": "8",
+                                "staffName":"anike john",
+                                "staffImg": "../img/anike.png",
+                                
+                                "staffPosition":  "backend dev",
+                                "nation": "USA",
+                                "email": "jnr323@yahoo.com",
+                                "dob": "18/09/1995",
+                                "djoin": "12/05/2022",
+                                "state": "Califonia",
+                                "add": "califonia road",
+                                "staff":" 1205FR2022",
+                                "number": "+167780897543"
+                           },
+                           {
+                                "id": "9",
+                                "staffName": "anita clark",
+                                "staffImg": "../img/anita.png",
+                                
+                                "staffPosition": "product design",
+                                "nation": "USA",
+                                "email": "jnr323@yahoo.com",
+                                "dob": "18/09/1995",
+                                "djoin": "12/05/2022",
+                                "state": "Califonia",
+                                "add": "califonia road",
+                                "staff":" 1205FR2022",
+                                "number": "+167780897543"
+                           },
+                           {
+                                "id": "10",
+                                "staffName":  "Ridwan Akolade",
+                                "staffImg":  "../img/anike.png",
+                              
+                                "staffPosition":  "software developer",
+                                "nation": "USA",
+                                "email": "jnr323@yahoo.com",
+                                "dob": "18/09/1995",
+                                "djoin": "12/05/2022",
+                                "state": "Califonia",
+                                "add": "califonia road",
+                                "staff":" 1205FR2022",
+                                "number": "+167780897543"
+                           },
+                           
+]
